@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Карта України</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/icon.ico">
+</head>
+<body>
+
+    <header class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    <div class="container">
+        <a href="#"><img src="images/ukraine.png" alt="Україна"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Перемикач навігації">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="ukrVERSION.html"><b>Головна</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mapUkraineUKRV.html"><b>Мапа України</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="newsUKRV.html"><b>Новини</b></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="knUKRv.html"><b>Контакти</b></a>
+                </li>
+                <div class="langUKR">
+                    <li class="nav-item">
+                        <a href="mapUkraineUKRv.html"><img src="images/ukr.png" alt="UKR"></a>
+                    </li>
+                </div>
+                <div class="langENG">
+                    <li class="nav-item">
+                        <a href="mapUkraineENGv.html"><img src="images/uni_m.png" alt="ENG"></a>
+                    </li>
+                </div>
+            </ul>
+        </div>
+    </div>
+</header>
+
+    <main class="container mt-5 pt-5">
+        <div class="content">
+            <h1><b><b>Мапа воєних дій в Україні</b></b></h1>
+            <p><b><h2>Мапа України з актуальною лінією фронту на теперішній час!</h2></b></p>
+        </div>
+        
+        <div class="map-container">
+            <iframe src="https://deepstatemap.live/?info=true#6/49.3537557/32.7832031" width="600" height="350" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        Карта взята з DeapState <br><br>
+        <b>DeapState - 
+        Це онлайн-платформа, що пропонує інтерактивну карту бойових дій в Україні, яка оновлюється в реальному часі. Карта показує лінії фронту, контрольовані території та місця активних боїв, допомагаючи користувачам відслідковувати актуальну ситуацію на полі бою</b>
+        
+        <h1><b><b>Карта повітряних тривог в Україні</b></b></h1>
+        <p><b><h2>Мапа повітряних тривог на теперішній час!</h2></b></p>
+
+        <div class="map-container">
+            <iframe src="https://map.ukrainealarm.com/" width="600" height="350" style="border: 1px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <br>
+        <br>
+        <h3><b>Тут представленна теперішня карта повітряних тривог на території України.</b></h3>
+
+    </main>
+
+    <footer class="footer mt-auto py-3 bg-light">
+        <div class="container text-center">
+            <span class="text-muted">© 2024 Україна. Всі данні захищено.</span>
+            <br>
+            <br>
+            <div class="container">  
+    
+                </li class="nav-item">
+
+                    <a class="nav-link" href="rgUKRv.html"><b><b>Реєстрація</b></b></a>
+                </li>
+                
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.4.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="scripts/script1.js"></script>
+</body>
+</html>

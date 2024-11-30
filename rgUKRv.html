@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація та Вхід</title>
+    <link rel="stylesheet" href="rg.css">
+</head>
+<body>
+    <div class="container" id="auth-container">
+        <div id="registration-form">
+            <h2>Реєстрація</h2>
+            <form>
+                <div class="form-group">
+                    <label for="register-username">Ім'я користувача</label>
+                    <input type="text" id="register-username" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-email">Електронна пошта</label>
+                    <input type="email" id="register-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="register-password">Пароль</label>
+                    <input type="password" id="register-password" required>
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="register()">Зареєструватися</button>
+                </div>
+                <button type="button" class="toggle-button" onclick="showLogin()">Уже є акаунт? Увійти</button>
+            </form>
+        </div>
+        
+        <div id="login-form" style="display: none;">
+            <h2>Вхід</h2>
+            <form>
+                <div class="form-group">
+                    <label for="login-username">Ім'я користувача</label>
+                    <input type="text" id="login-username" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Пароль</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <div class="form-group">
+                    <button type="button" onclick="login()">Увійти</button>
+                </div>
+                <button type="button" class="toggle-button" onclick="showRegistration()">Немає акаунту? Зареєструватися</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="scripts/rg.js"></script>
+</body>
+</html>
